@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 5px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-brand{
+font-size: 1.1rem;
+    margin-right: 1rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: #f8f9fa;
+    padding: 0.5rem 0;
+}
+header span{
+    color: #707071;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+h3{
+    font-size: 2.2rem;
+    padding: 0.5rem 0;
+}
+.text-muted{
+    color: #707071;
+}
+main.flex{
+    justify-content: space-between;
+}
+main h3,h4{
+    font-size: 1.8rem;
+}
+main h4{
+    padding-bottom: 1rem;
+}
+main h3{
+
+}
+.col{
+    width: 614px;
+}
+#desc,#valeur{
+    height: 40px;
+    width: 614px;
+    border: #ced4da 1px solid;
+    border-radius: 5px;
+}
+#additem p{
+    padding: 1rem 0 0.5rem;
+}
+#additem button{
+    color: #198754;
+    background-color: #fff;
+    border: #198754 1px solid;
+    height: 40px;
+    width: 614px;
+    border-radius: 5px;
+    margin: 1.2rem 0 0.5rem;
+}
+#additem button:last-of-type{
+    border: #6c757d 1px solid;
+    margin-top: -0.2rem;
+    color: #6c757d;
+}
+.col{
+    width: 614px;
+}
