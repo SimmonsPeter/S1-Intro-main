@@ -18,6 +18,7 @@ font-size: 1.1rem;
 .flex{
     display: flex;
     align-items: center;
+
 }
 header{
     background-color: #f8f9fa;
@@ -74,6 +75,65 @@ main h3{
     margin-top: -0.2rem;
     color: #6c757d;
 }
+.list p:not(:nth-last-child(1)){
+    border: #ced4da 1px solid;
+    width: 614px;
+    height:40px;
+    vertical-align: middle;
+    line-height: 40px;
+    margin:-1px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.list span{
+    background-color: #198754;
+    border-radius: 100px;
+    color: #fff;
+    padding: 0 10px;
+    height: 20px;
+    margin: auto 0;
+    line-height: 20px;
+}
+.list p:last-of-type{
+    text-align: right;
+    padding-top: 0.2rem;
+}
+#email{
+    height: 40px;
+    width: 500px;
+    justify-content: space-between;
+    border: #ced4da 1px solid;
+    border-radius: 5px;
+}
+#Dest{
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
 .col{
     width: 614px;
 }
+#buttons{
+    display: flex;
+    justify-content: right;
+}
+#buttons button{
+    padding: 5px 10px;
+    margin: 1rem 0.2rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#buttons button:first-of-type{
+    border: #198754 1px solid;
+    color: #198754;
+}
+#buttons button:last-of-type{
+    border: #6c757d 1px solid;
+    color: #6c757d;
+}
+#maliste{
+    margin-right:20px ;
+}
+
+
